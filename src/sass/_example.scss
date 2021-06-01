@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+input {
+  margin: 10px 60px;
+  position: relative;
+  display: flex;
+  height: 60px;
+  width: 80%;
+}
+
+.country-card {
+  display: flex;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.card-flag {
+  width: 50%;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 70px;
+}
+
+.h2 {
+  margin-right: 10px;
+}
+.countries-list {
+  font-size: 30px;
+}

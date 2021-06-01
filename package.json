@@ -1,0 +1,38 @@
+{
+  "name": "goit-js-hw-12-countrie",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countrie/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vipa4ka/goit-js-hw-12-countries.git"
+  },
+  "keywords": [],
+  "author": "Elena Ilieva <vipa4ka@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vipa4ka/goit-js-hw-12-countries.git/issues",
+    "homepage": "https://Vipa4ka.github.io/goit-js-hw-12-countries"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "pnotify": "^5.2.0",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "autoprefixer": "^10.2.5",
+    "gh-pages": "^3.1.0",
+    "lodash.debounce": "^4.0.8",
+    "postcss": "^8.3.0"
+  }
+}
