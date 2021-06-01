@@ -16,14 +16,7 @@ function onInput(e) {
   fetchCountry(form)
     .then(countries => {
       if (countries.length > 10) {
-        error({
-          text: 'Too many matches found. Please enter a more specific query!',          
-          closer: true,          
-          hide: true,
-          sticker: false,
-          mode: 'light',
-          delay: 2000,
-        });
+        onFetchError('Too many matches found. Please enter a more specific query!');       
         return;
       }
       if (countries.length <= 10 && countries.length > 1) {
@@ -36,8 +29,7 @@ function onInput(e) {
       }
     })
     .catch(onFetchError);
-}   
-             
+}                
 
 function renderCountryCard(country) {
     const markup=countryCard(country);
@@ -56,7 +48,7 @@ function onFetchError(e) {
     closer: true,    
     hide: true,
     sticker: false,
-    mode: 'dark',
+    // mode: 'dark',
     delay: 2000,      
   });
 }
