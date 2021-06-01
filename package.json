@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countrie/",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-12-countrie/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
@@ -17,9 +17,9 @@
   "author": "Elena Ilieva <vipa4ka@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vipa4ka/goit-js-hw-12-countries.git/issues",
-    "homepage": "https://github.com/Vipa4ka/goit-js-hw-12-countries"
-  },
+    "url": "https://github.com/Vipa4ka/goit-js-hw-12-countries#readme"
+      },
+    "homepage": "https://github.com/Vipa4ka/goit-js-hw-12-countries",  
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
