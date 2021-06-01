@@ -18,7 +18,7 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vipa4ka/goit-js-hw-12-countries.git/issues",
-    "homepage": "https://Vipa4ka.github.io/goit-js-hw-12-countries"
+    "homepage": "https://github.com/Vipa4ka/goit-js-hw-12-countries"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
